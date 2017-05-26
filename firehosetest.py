@@ -54,6 +54,7 @@ def main(message_count, workers, message_size):
     print 'Min: %f' % min(all_times)
     print 'Max: %f' % max(all_times)
     print 'Average: %f' % numpy.average(all_times)
+    print 'Variance: %f' % numpy.var(all_times)
 
 
 if __name__ == '__main__':
